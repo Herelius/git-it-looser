@@ -28,3 +28,5 @@ git branch <BRANCHNAME>                       # Create a new branch
 git checkout <BRANCHNAME>                     # Move onto a branch
 git branch                                    # List the branch
 git branch -m <NEWBRANCHNAME>                 # Rename the branch you are currently in
+
+git fetch --dry-run                           # See changes to the remote before you pull in
