@@ -13,3 +13,9 @@ git remote set-url <REMOTENAME> <URL>		# Set a URL to a remote
 git pull <REMOTENAME> <BRANCHNAME>		# PULL in changes from github
 git remote -v					# View remote addresses
 git push <REMOTENAME> <BRANCH>		# PUCH changes to github
+
+
+git remote add upstream <URL of the git>      # Connect to the Original Repository
+git remote add <REMOTENAME> <URL>             # Add a remote
+git remote set-url <REMOTENAME> <URL>         # Change a remote URL
+git remote -v                                 # View remote connections
