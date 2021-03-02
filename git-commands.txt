@@ -2,20 +2,29 @@
 # Some git commands
 
 
-git init					# Activate Git on a folder:
-git status					# Check status of changes to a repository
-git diff					# View changes to files
-git add <filename>				# Add a file's changes to be committed
-git add .					# Add all files changes
-git commit -m "your commit message"		# To commit (save) the changes you've added with a short message describing the changes
-git remote add <REMOTENAME> <URL>		# Add remote connections
-git remote set-url <REMOTENAME> <URL>		# Set a URL to a remote
-git pull <REMOTENAME> <BRANCHNAME>		# PULL in changes from github
-git remote -v					# View remote addresses
-git push <REMOTENAME> <BRANCH>		# PUCH changes to github
+git init					                            # Activate Git on a folder:
+git status				                          	# Check status of changes to a repository
+git diff					                            # View changes to files
+git add <filename>			                    	# Add a file's changes to be committed
+git add .				                            	# Add all files changes
+git commit -m "your commit message"		        # To commit (save) the changes you've added with a short message describing the changes
+git remote add <REMOTENAME> <URL>		          # Add remote connections
+git remote set-url <REMOTENAME> <URL>		      # Set a URL to a remote
+git pull <REMOTENAME> <BRANCHNAME>		        # PULL in changes from github
+git remote -v					                        # View remote addresses
+git push <REMOTENAME> <BRANCH>		            # PUCH changes to github
 
 
 git remote add upstream <URL of the git>      # Connect to the Original Repository
 git remote add <REMOTENAME> <URL>             # Add a remote
 git remote set-url <REMOTENAME> <URL>         # Change a remote URL
 git remote -v                                 # View remote connections
+
+git branch <branchname>                       # Create a branch (add-username)
+git checkout <BRANCHNAME>                     # Go into the branch
+
+git checkout -b <BRANCHNAME>                  # You can create and switch to a branch in one line
+git branch <BRANCHNAME>                       # Create a new branch
+git checkout <BRANCHNAME>                     # Move onto a branch
+git branch                                    # List the branch
+git branch -m <NEWBRANCHNAME>                 # Rename the branch you are currently in
