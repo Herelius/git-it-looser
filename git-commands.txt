@@ -30,3 +30,9 @@ git branch                                    # List the branch
 git branch -m <NEWBRANCHNAME>                 # Rename the branch you are currently in
 
 git fetch --dry-run                           # See changes to the remote before you pull in
+
+git merge <BRANCHNAME>                        # Merge Branch into the current branch
+git checkout <BRANCHNAME>                     # Change the branch you are working on
+git branch -d <BRANCHNAME>                    # Delete a local branch
+git push <REMOTENAME> --delete <BRANCHNAME>   # Delete a remote branch
+git pull <REMOTENAME> <BRANCHNAME>            # Pull from a remote branch
